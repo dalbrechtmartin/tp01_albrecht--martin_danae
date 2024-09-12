@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "tailwindcss": "^3.4.11"
+  },
+  "name": "tp01_albrecht--martin_danae",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "server": "lite-server"
+  },
+  "lite-server": {
+    "server": {
+      "baseDir": "./src"
+    }
+  }
+}

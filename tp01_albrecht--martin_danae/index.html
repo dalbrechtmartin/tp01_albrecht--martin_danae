@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1 - ALBRECHT--MARTIN Danaé</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="text-3xl font-bold underline">Bienvenue sur la page</h1>
+    </header>
+
+    <h2>Création d'un compte client</h2>
+    <form action="index.html" method="post">
+        <div>
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" id="nom" required>
+        </div>
+        <div>
+            <label for="prenom">Prénom :</label>
+            <input type="text" name="prenom" id="prenom" required>
+        </div>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="password">Mot de passe :</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <input type="submit" value="Créer un compte">
+    </form>
+
+    <footer>
+        <p>&copy; 2024 ALBRECHT--MARTIN Danaé</p>
+    </footer>
+</body>
+</html>
